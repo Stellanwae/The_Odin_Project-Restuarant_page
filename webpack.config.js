@@ -8,6 +8,13 @@ module.exports = {
         clean: true,
         path: path.resolve(__dirname, 'dist')
     },
+    devtool: "eval-source-map",
+    devServer: {
+        static: "./dist",
+        hot: true,
+        open: true,
+    watchFiles: ["./src/template.html"],
+    },
     mode: "development",
     module: {
         rules: [

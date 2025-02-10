@@ -15,14 +15,49 @@ contact.id = "contact"
 contact.classList.add('tab-page')
 
 home.innerHTML = `
-    <h1>Home</h1>
-    <p>Welcome to our restaurant</p> `
+    <div class="opacity-bg">
+        <h1>Welcome to Flavor Haven</h1>
+        <p>Experience the best cuisine in town, made with fresh ingredients and passion.</p>
+        <p>Join us for a delightful dining experience that satisfies your taste buds.</p>
+    </div>`
 menu.innerHTML = `
-    <h1>Menu</h1>
-    <p>Our menu is coming soon</p> `
+    <div class="opacity-bg">
+        <h1>Our Menu</h1>
+        <h2>Starters</h2>
+        <ul>
+        <li>Garlic Bread - $5.99</li>
+        <li>Bruschetta - $7.99</li>
+        <li>Caesar Salad - $6.99</li>
+        </ul>
+        <h2>Main Courses</h2>
+        <ul>
+        <li>Grilled Steak - $19.99</li>
+        <li>Seafood Pasta - $17.99</li>
+        <li>Vegetable Stir Fry - $14.99</li>
+        </ul>
+        <h2>Desserts</h2>
+        <ul>
+        <li>Chocolate Lava Cake - $8.99</li>
+        <li>Cheesecake - $7.99</li>
+        <li>Ice Cream Sundae - $6.99</li>
+        </ul>
+    </div>`
 contact.innerHTML = `
-    <h1>Contact</h1>
-    <p>You can contact us here </p>`
+    <div class="opacity-bg">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Get in touch with us for reservations or inquiries.</p>
+        <h2>📍 Location</h2>
+        <p>123 Flavor Street, Foodie City, FC 45678</p>
+        <h2>☎️ Phone</h2>
+        <p>(123) 456-7890</p>
+        <h2>📧 Email</h2>
+        <p>contact@flavorhaven.com</p>
+        <h2>🕒 Opening Hours</h2>
+        <ul>
+        <li>Monday - Friday: 10:00 AM - 10:00 PM</li>
+        <li>Saturday - Sunday: 11:00 AM - 11:00 PM</li>
+        </ul>
+    </div>  `
 
 tabContent.appendChild(home)
 tabContent.appendChild(menu)
